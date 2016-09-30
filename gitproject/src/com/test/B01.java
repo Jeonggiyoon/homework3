@@ -9,8 +9,7 @@ public class B01 {
 		Scanner s = new Scanner(System.in);
 		System.out.println("hellow");
 		System.out.println("hellow");
-
-
+		System.out.println("fixb01");
 	}
 
 }
