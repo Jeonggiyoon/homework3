@@ -8,6 +8,8 @@ public class B01 {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		System.out.println("hellow");
+		System.out.println("hellow");
+
 
 	}
 
