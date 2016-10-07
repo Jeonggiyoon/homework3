@@ -29,4 +29,17 @@
  
 7. 로컬에서 원격의 정보사항을 받아온다.(fetch) 
     git fech origin master git merge origin/master 
- 7. 로컬브랜치와 원격 받아온 브랜치를 merge한 후 받아온 소스를 컴파일한다. 26  27 8. 에러가 발생한다면 수정한 후 add/commit을 한다. 28    git commit -am "Update B04.java 29 9. 복제하기 위핸 연결된 원격 연결을 끊는다. 30    git remote rm origin git remote -v 31 10. 원격 연결을 apple이란 이름으로 새로 연결한 후 완성된 프로그램을 push한다.  git remote add apple htttp:// github.com /jid/homework3 git push apple master
+    
+8. 로컬브랜치와 원격 받아온 브랜치를 merge한 후 받아온 소스를 컴파일한다.
+    git merge origin/master
+    
+9. 에러가 발생한다면 수정한 후 add/commit을 한다.
+    git commit -am "Update B04.java
+    
+10. 복제하기 위핸 연결된 원격 연결을 끊는다. 
+    git remote rm origin 
+    git remote -v
+    
+11. 원격 연결을 apple이란 이름으로 새로 연결한 후 완성된 프로그램을 push한다.
+    git remote add apple htttp:// github.com /jid/homework3 
+    git push apple master
